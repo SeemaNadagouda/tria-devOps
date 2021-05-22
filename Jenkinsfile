@@ -4,6 +4,6 @@ node {
   }
 
   stage('git clone') {
-    git clone "https://github.com/SeemaNadagouda/trialDevOps2.git"
+    git clone "https://github.com/SeemaNadagouda/trialDevOps.git"
   }
 }
