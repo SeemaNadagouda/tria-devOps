@@ -1,5 +1,5 @@
 node {
   stage('SCM Checkout') {
-    git 'https://github.com/SeemaNadagouda/trialDevOps.git'
+    git 'https://github.com/SeemaNadagouda/tria-devOps'
   }
 }
