@@ -1,9 +1,5 @@
 node {
-  stage('HelloWorld') {
-    echo 'Hello World'
-  }
-
-  stage('git clone') {
-    git clone "https://github.com/SeemaNadagouda/trialDevOps.git"
+  stage('SCM Checkout') {
+    git 'https://github.com/SeemaNadagouda/trialDevOps.git'
   }
 }
